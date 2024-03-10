@@ -1,0 +1,40 @@
+.arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  filter: drop-shadow(0px 0px 5px #555);
+}
+
+image{
+    transition: all 0.7s;
+}
+.left-arrow {
+  left: 1rem;
+}
+.right-arrow {
+  right: 1rem;
+}
+.circle-indicator {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  bottom: 1rem;
+}
+.current-indicator {
+  background-color: white;
+  height: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.6s;
+  justify-content: center;
+  font-weight: bold;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
