@@ -7,6 +7,8 @@ import RandomColor from "./GenrateRandomColor/RandomColor";
 import StarRate from "./Star-Rating/StarRate";
 import ImageSlide from "./ImageSlider/ImageSlide";
 import LoadMore from "./ImageSlider/LoadMore";
+import Tree from "./Tree-View/Tree";
+import Menu from "./Tree-View/data";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +20,8 @@ function App() {
       {/* <RandomColor /> */}
       {/* <StarRate noOfStars={10}/> */}
       {/* <ImageSlide /> */}
-      <LoadMore/>
+      {/* <LoadMore/> */}
+      <Tree menu={Menu}/>
     </>
   );
 }
