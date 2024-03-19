@@ -9,6 +9,10 @@ import ImageSlide from "./ImageSlider/ImageSlide";
 import LoadMore from "./ImageSlider/LoadMore";
 import Tree from "./Tree-View/Tree";
 import Menu from "./Tree-View/data";
+import QRCodeGen from "./QRCodeGenerotor/QRCode";
+import LIghtDarkMod from "./Theme/LIghtDarkMod";
+import IMages from "./MYIMage";
+import Scroll from "./ScrollIndicator/Scroll";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +25,11 @@ function App() {
       {/* <StarRate noOfStars={10}/> */}
       {/* <ImageSlide /> */}
       {/* <LoadMore/> */}
-      <Tree menu={Menu}/>
+      {/* <Tree menu={Menu}/> */}
+      {/* <QRCodeGen/> */}
+      {/* <LIghtDarkMod/> */}
+      {/* <IMages/> */}
+      <Scroll getUrl={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }

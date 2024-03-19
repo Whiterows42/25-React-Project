@@ -1,0 +1,19 @@
+.topContainer {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  background-color: green;
+}
+
+.scrollTracker {
+  width: 100%;
+  /* background: rgb(40, 160, 7); */
+}
+.Current {
+  height: 5px;
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  border-radius: 0 10px 10px 0;
+  width: 0%;
+}
